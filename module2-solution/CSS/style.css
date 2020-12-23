@@ -21,6 +21,7 @@ div.container {
   padding: 0px 10px 0px 15px;
   margin: 2px 10px 15px 10px;
   background-color: darkgrey;
+  position: relative;
 }
 
 h2 {
@@ -30,7 +31,7 @@ h2 {
   position: relative;
   padding: 0px 10px 2px 10px;
   margin: -1px -11px 2px 2px;
-  width: 200px;
+  width: 150px;
   text-align: center;
 }
 h2.chicken {
@@ -114,7 +115,7 @@ h2.sushi {
   .col-md-11,
   .col-md-12 {
     float: left;
-    /*border: 1px solid blue;*/
+   padding: 15px;
   }
   .col-md-1 {
     width: 8.33%;
